@@ -1,0 +1,16 @@
+/* BIM'S Vote to Win — animations + form styling */
+.vtw-root *{box-sizing:border-box;-webkit-font-smoothing:antialiased;}
+.vtw-root a{color:#EC1C2A;} .vtw-root a:hover{color:#c0121d;}
+
+@keyframes stwPop{0%{transform:scale(.6);opacity:0}60%{transform:scale(1.08)}100%{transform:scale(1);opacity:1}}
+@keyframes stwPulse{0%,100%{opacity:1}50%{opacity:.28}}
+@keyframes stwMarquee{from{transform:translateX(0)}to{transform:translateX(-16.6667%)}}
+@keyframes stwWobble{0%,100%{transform:rotate(-4deg)}50%{transform:rotate(4deg)}}
+@keyframes stwBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+@keyframes stwBulb{0%,100%{opacity:1}50%{opacity:.32}}
+@keyframes stwBtn{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+@keyframes stwFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+@keyframes stwSpinRays{from{transform:translate(-50%,-50%) rotate(0)}to{transform:translate(-50%,-50%) rotate(360deg)}}
+
+/* button press feedback */
+.vtw-root button:active{transform:translate(3px,3px);}
